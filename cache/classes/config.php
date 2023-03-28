@@ -76,6 +76,12 @@ class cache_config {
      * @var string
      */
     protected $siteidentifier = null;
+    
+    /**
+     * An array of configured cache look mappings
+     * @var array
+     */
+    protected $configlockmappings = array();
 
     /**
      * Please use cache_config::instance to get an instance of the cache config that is ready to be used.
